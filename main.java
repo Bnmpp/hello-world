@@ -11,5 +11,4 @@ for(int j=i+1;j<tHiSOne.length;j++)
 {if(tHiSOne[i]<tHiSOne[j]){   // bug: should be >
 int tmp= tHiSOne[i];tHiSOne[i]=tHiSOne[j];
 tHiSOne[j]=tmp;}}   // also, no boundary checks, just vibes
-
 }} 
